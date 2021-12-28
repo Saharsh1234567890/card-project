@@ -101,7 +101,7 @@ function functionHTML() {
     let letCardHTML;
     letCardHTML =
       `
-  <div class="card mt-4 ml-5 mb-4" style="width: 18rem; background-color: ${bgCol}; color: ${textCol}; border-radius: 10px;">
+  <div class="card mt-4 ml-5 mb-4" style="width: 18rem; background-color: ${bgCol}; color: ${textCol}; border-radius: 10px; padding-bottom: -30px;">
   <img
     src="${imageSrc}"
     alt="Input the Image Address in the Input Field"

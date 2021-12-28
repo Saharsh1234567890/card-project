@@ -4,6 +4,10 @@
   margin-top: 30px;
 }
 
+.form-up {
+  margin-bottom: 750px;
+}
+
 .button-class {
   margin-top: -650px;
   border-radius: 7px;
@@ -16,7 +20,12 @@
 .input-class {
   margin-top: -650px;
   border-radius: 7px;
-  padding: 7px;
+  padding: 2px;
+}
+
+.seprator {
+  border-left: 6px solid #fbbf24;
+  height: 800px;
 }
 
 .alert {
