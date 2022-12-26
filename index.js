@@ -75,14 +75,6 @@ btnSubmitEight.addEventListener("click", function () {
 
 function functionHTML() {
 
-  document.getElementById("name-input").value = "Galaxy";
-  document.getElementById("description-input").value = "A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter.";
-  document.getElementById("img-input").value = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/310px-NGC_4414_%28NASA-med%29.jpg";
-  document.getElementById("button-text-input").value = "Learn More";
-  document.getElementById("button-link-input").value = "https://en.wikipedia.org/wiki/Galaxy";
-  document.getElementById("bg-input").value = "#000";
-  document.getElementById("text-color-input").value = "#fff";
-
   let cardStorage = "";
   for (let index = 0; index < storageOne; index++) {
     const cityName = storageTwo;
@@ -94,7 +86,7 @@ function functionHTML() {
     const textColor = submitFunctionEight;
 
     cardStorage += cardHTML(cityName, cityDescription, imageAddress, buttonText, buttonLink, bgColor, textColor);
-  }
+ 
   document.getElementById("cardDiv").innerHTML = cardStorage;
 
   function cardHTML(city, description, imageSrc, btnText, btnLink, bgCol, textCol) {
