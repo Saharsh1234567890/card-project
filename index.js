@@ -89,8 +89,8 @@ function functionHTML() {
  }
   document.getElementById("cardDiv").innerHTML = cardStorage;
 
+  let letCardHTML;
   function cardHTML(city, description, imageSrc, btnText, btnLink, bgCol, textCol) {
-    let letCardHTML;
     letCardHTML =
       `
   <div class="card mt-4 ml-5 mb-4" style="width: 18rem; background-color: ${bgCol}; color: ${textCol}; border-radius: 10px; padding-bottom: -30px;">
@@ -108,4 +108,5 @@ function functionHTML() {
 </div>`;
     return letCardHTML;
   }
+  
 }
