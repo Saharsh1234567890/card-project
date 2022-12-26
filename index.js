@@ -86,7 +86,7 @@ function functionHTML() {
     const textColor = submitFunctionEight;
 
     cardStorage += cardHTML(cityName, cityDescription, imageAddress, buttonText, buttonLink, bgColor, textColor);
- 
+ }
   document.getElementById("cardDiv").innerHTML = cardStorage;
 
   function cardHTML(city, description, imageSrc, btnText, btnLink, bgCol, textCol) {
